@@ -1,3 +1,4 @@
+"use strict";
 var var1;
 var1 = "Can be a string, a number or a numbers array";
 console.log(var1);

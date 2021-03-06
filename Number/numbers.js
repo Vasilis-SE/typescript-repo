@@ -1,3 +1,4 @@
+"use strict";
 console.log('MAX_VALUE: ', Number.MAX_VALUE);
 console.log('MAX_VALUE: ', Number.MAX_VALUE);
 console.log('POSITIVE_INFINITY: ', Number.POSITIVE_INFINITY);

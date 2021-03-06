@@ -1,3 +1,4 @@
+"use strict";
 var mytuple = [1, 2, 3, 'hello', 5, 'world'];
 mytuple.push(6);
 var message = mytuple.filter(function (val) { return typeof val === 'string'; });

@@ -1,3 +1,4 @@
+"use strict";
 // Basic types
 var intNum = 10;
 var floatNum = 20.0; // It will print 20 cause of 0

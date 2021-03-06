@@ -1,3 +1,4 @@
+"use strict";
 // Basic simple function
 var addition1 = function (param1, param2) {
     console.log(param1 + param2);

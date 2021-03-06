@@ -1,3 +1,4 @@
+"use strict";
 var EmployeeNamespace;
 (function (EmployeeNamespace) {
     var Employee = /** @class */ (function () {

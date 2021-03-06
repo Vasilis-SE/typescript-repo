@@ -1,3 +1,4 @@
+"use strict";
 // Basic operations
 console.log('\n ----- Basic operations -------\n');
 console.log(12 + 53);
