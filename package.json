@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/Vasilis-SE/typescript-repo/issues"
   },
-  "homepage": "https://github.com/Vasilis-SE/typescript-repo#readme"
+  "homepage": "https://github.com/Vasilis-SE/typescript-repo#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-typescript": "^6.0.0-alpha.1"
+  }
 }
