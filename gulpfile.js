@@ -2,6 +2,7 @@ const gulp = require("gulp");
 const ts = require("gulp-typescript");
 const tsProject = ts.createProject("tsconfig.json");
 const imagemin = require('gulp-imagemin');
+const babel = require('gulp-babel');
 
 // Copy all html files
 gulp.task('copy-html', function() {
@@ -19,6 +20,9 @@ gulp.task('image-optimizer', function() {
 gulp.task('compile-typescript', function() {
     return tsProject.src()
         .pipe(tsProject()).js
+        .pipe(babel({
+            presets: ['@babel/env']
+        }))
         .pipe(gulp.dest("dist"));
 });
 

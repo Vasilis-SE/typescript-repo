@@ -1,4 +1,5 @@
 "use strict";
+
 var var2;
 var2 = "Can be a string, a number or a numbers array";
 console.log(var2);
