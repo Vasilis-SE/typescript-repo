@@ -6,11 +6,6 @@
     <title>Sample Page</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <style>
-        body {
-            background: url(../assets/images/background.jpg) no-repeat;
-            background-size: 100%;
-            background-color: #e84c50;
-        }
         #page-wrapper {
             position: relative;
             height: 100%;
@@ -21,39 +16,28 @@
             font-size: 40px;
             font-weight: bold;
             font-family: cursive;
-            padding: 20px 0px;
-            color: white;
         }
         #title-switcher {
-            padding: 20px 50px;
+            width: 50%;
+            margin: 24%;
+            padding: 20px;
             border: 0px;
-            background: #ffffff;
-            color: #e84c50;
+            background: #78d7dc;
+            color: #efefef;
+            font-size: 26px;
             border-radius: 5px;
             cursor: pointer;
-            font-size: 30px;
-            font-weight: bold;
         }
         #title-switcher:hover {
-            background: #dadada;
+            background: #5db2b7;
             transition: .2s;
-        }
-        #content {
-            width: 50%;
-            height: 300px;
-            margin: 15% auto;
-            background: #0c0c0c99;
-            border-radius: 5px;
-            text-align-last: center;
         }
     </style>
 </head>
 <body>
     <div id="page-wrapper"> 
-        <div id="content">
-            <div id="page-title"> Hello World </div>
-            <button id="title-switcher"> Switch Title </button>
-        </div>
+        <div id="page-title"> Hello World </div>
+        <button id="title-switcher"> Switch Title </button>
     </div>
     <script src="index.js"></script>
 </body>
