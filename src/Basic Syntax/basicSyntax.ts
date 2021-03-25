@@ -1,3 +1,3 @@
 // Some comments to be remove by --removeComments
-var message:string = "Hello world";
-console.log(message);
+var tempmessage:string = "Hello world";
+console.log(tempmessage);

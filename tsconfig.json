@@ -1,5 +1,22 @@
 {
-  "files": ["src/Project - Vehicles/*.ts"],
+  "files": [
+    "src/Array/*.ts", 
+    "src/Basic Syntax/*.ts", 
+    "src/Classes/*.ts",
+    "src/Conditions/*.ts", 
+    "src/DOM Manipulation/*.ts", 
+    "src/Functions/*.ts", 
+    "src/Interface/*.ts", 
+    "src/Loops/*.ts", 
+    "src/Modules/*.ts", 
+    "src/Namespaces/*.ts", 
+    "src/Number/*.ts", 
+    "src/Operators/*.ts", 
+    "src/Project - Vehicles/*.ts", 
+    "src/Tuples/*.ts", 
+    "src/Types/*.ts"
+  ],  
+  // "files": ["src/**/*.ts"],
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
 

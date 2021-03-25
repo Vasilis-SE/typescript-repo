@@ -7,7 +7,7 @@ const addition1 = (param1:number, param2:number) => {
 const addition2 = (param1:number, param2:number):number => param1 + param2;
 
 // Function with optional parameters
-const addition3 = (param1:number, param2?:number):number => param1 + param2;
+const addition3 = (param1:number, param2?:number):number => param1 + (param2 || 0);
 
 // Function with rest parameters
 const addition4 = (...param:number[]):number => {

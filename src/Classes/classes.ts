@@ -4,7 +4,7 @@ class Person {
     private balance:number;
 
     // Constructor
-    constructor(fn?:string, ln?:string, bl?:number) {
+    constructor(fn:string, ln:string, bl:number) {
         this.fname = fn;
         this.lname = ln;
         this.balance = bl;
@@ -30,24 +30,24 @@ class Person {
 
     // Getters - Setters
     getBalance() { return this.balance; }
-    setBalance( bal ) { this.balance = bal; }
+    setBalance( bal:number ) { this.balance = bal; }
 }
 
-class Employee extends Person {
+class Employee2 extends Person {
     private id:number;
 
     // Constructor
-    constructor(person, id:number) {
+    constructor(person:any, id:number) {
         super(person.fname, person.lname, person.bal);
         this.id = id;
     }
 
     // Getters - Setters
     getEmployeeId() { return this.id; }
-    setEmployeeId( id ) { this.id = id; }
+    setEmployeeId( id:number ) { this.id = id; }
 }
 
-const person1 = new Employee({lname:'Jonathan', fname:'Williams', bal:12.65}, 23);
+const person1 = new Employee2({lname:'Jonathan', fname:'Williams', bal:12.65}, 23);
 
 console.log( 'My name is: ', person1.whatsMyName() );
 console.log( 'My balance is: ', person1.getBalance() );

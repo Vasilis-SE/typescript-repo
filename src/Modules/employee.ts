@@ -19,7 +19,7 @@ export class Employee {
     getEmployeeCompanyId() { return this.companyid; }
     getEmployeeName() { return this.name; }
 
-    setEmployeeId( id ) { this.id = id; }
-    setEmployeeCompanyId( cid ) { this.companyid = cid; }
-    setEmployeeName( n ) { this.name = n; }
+    setEmployeeId( id:number ) { this.id = id; }
+    setEmployeeCompanyId( cid:number ) { this.companyid = cid; }
+    setEmployeeName( n:string ) { this.name = n; }
 }
